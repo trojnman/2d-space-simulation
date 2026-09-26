@@ -1,13 +1,23 @@
-# 2D Space Simulation - latest session backup
+# Himinn
 
-Updated September 17, 2026, at the end of the development session. This replaces the earlier snapshot from today.
+A 2D space simulation playtest across ten sectors, with exploration, combat, mining, trading and fleet management.
 
-Download `2d-space-simulation-backup-2026-09-17.zip`, extract it, and import `2d-space-simulation/project.godot` in Godot 4.6.2. Press F5 (Run Project) in the editor. In the running game F5 is quicksave.
+## Download and play
 
-This is a source project backup, not a standalone Windows executable. A friend with repository access can download it and play through Godot. The repository is private; invite them as a collaborator before sharing its link. A standalone Windows release can be exported separately so players do not need Godot.
+[Download the Windows playtest](https://github.com/trojnman/2d-space-simulation/releases/tag/v0.2.0-playtest-2026-09-26).
 
-Latest work includes four active factions across ten sectors, faction economy and strategy priorities, 200-point faction ship supply limits, 60/120/300-second ship build times, empty starting station inventories, background simulation improvements, a continuous zoomable sector map, visible gates, seamless space background, and the expanding long-range scanner ping (L). Scan contacts include asteroids, last 60 seconds after the ring reaches them, and fade over 5 seconds.
+1. Download `Himinn-Windows-v0.2.0-playtest-2026-09-26.zip` from the release Assets.
+2. Extract the entire ZIP.
+3. Run `Himinn.exe`, keeping `Himinn.pck` beside it. Godot is not required.
 
-Controls: WASD flight/map pan; M map; mouse wheel zoom; middle drag map pan; I inventory; Tab target; X clear target; E dock/jump; L scanner; P pause; Escape menu. This is a work-in-progress playtest.
+Requires 64-bit Windows. If the default renderer does not work, try `Play Compatibility.cmd`. Choose **New Game** to start in a small fighter with laser autocannons. Press **F1** for the in-game guide.
 
-Generated caches, logs, local savegames, and export binaries are excluded. The .sha256 file verifies the ZIP. Source, scenes, resources, documentation, and tests are included. Some older tests require fixture updates after the scenario changes; latest starting-region check passed 121 checks.
+## Controls
+
+WASD: movement; Shift: brake; mouse: aim; left-click: fire; I: inventory; M: map; N: navigation; H: in-sector jump; E: dock/use nearby gate; Tab: target; X: clear target; L: scanner; Esc: menu.
+
+Settings include separate weapon, engine, exploration music and combat music volumes. Saves are stored locally in your Windows user profile.
+
+This is a development playtest. [Report bugs here](https://github.com/trojnman/2d-space-simulation/issues), including steps to reproduce and your Windows/GPU details.
+
+The current release distributes the playable build only. No current source project is included. Older source snapshots remain in repository history. Music credits and Godot notices are included in the download.
