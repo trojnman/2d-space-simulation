@@ -1,38 +1,21 @@
 # Himinn
 
-
-
-
 A 2D space simulation playtest across ten sectors, with exploration, combat, mining, trading and fleet management.
-
-
-
 
 ## Download and play
 
+[Download the Windows installer — v0.2.3](https://github.com/trojnman/2d-space-simulation/releases/tag/v0.2.3-playtest-2026-09-28).
 
+1. Download `Himinn-Setup-v0.2.3.exe` from the release assets.
+2. Run the installer. It installs the game and automatically sets up local AI conversations.
+3. Launch Himinn from the Start menu.
 
+Requires 64-bit Windows. Setup needs internet for about 4 GB of AI downloads and about 8 GB of free space. After setup, the game and faction conversations work offline. No API key, source code, or separate Godot/Ollama installation is needed. Use the **Repair AI** Start menu shortcut if setup's AI download is interrupted. Uninstalling preserves saved games.
 
-[Download the Windows playtest](https://github.com/trojnman/2d-space-simulation/releases/tag/v0.2.2-playtest-2026-09-26).
-
-
-
-
-1. Download `Himinn-Windows-v0.2.2-playtest-2026-09-26.zip` from the release Assets.
-2. Extract the entire ZIP.
-3. Run `Himinn.exe`, keeping `Himinn.pck` beside it. Godot is not required.
-
-
-
-
-Requires 64-bit Windows. If the default renderer does not work, try `Play Compatibility.cmd`. Choose **New Game** to start in a small fighter with laser autocannons. Press **F1** for the in-game guide.
-
-
-
+If the default renderer does not work, use the **Compatibility Mode** Start menu shortcut. Choose **New Game** for the campaign or **Arena** to configure a battle with up to 15 ships per team. Press **F1** for the in-game guide.
 
 ## Controls
 
+WASD: movement; Shift: afterburner; Space: brake; mouse: aim; left-click: fire; I: inventory; M: map; N: navigation; H: in-sector jump; E: dock/use nearby gate; Tab: target; X: clear target; L: scanner; Esc: menu.
 
-
-
-WASD: movement; Shift: brake; mouse: aim; left-click: fire; I: inventory; M: map; N: navigation; H: in-sector jump; E: dock/use nearby gate; Tab: target; X: clear target; L: scanner; Esc: menu.
+This is an unsigned development playtest. Extremely large rapid-fire battles can still have performance issues.
