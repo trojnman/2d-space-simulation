@@ -31,6 +31,8 @@
 - Removed obsolete Tiresias assets and moved earlier Loreai proposals out of the game asset folder while preserving approved designs.
 
 ## Additional v0.2.4 fixes
+- Selling now uses ship cargo first, then personal storage at the docked station. The trade list shows both counts and keeps owned items visible even when the station does not buy them, with a reason on the disabled Sell button. Other stations' storage is excluded.
+- Trade buttons now read You Buy and You Sell; price columns read You Pay and You Receive.
 - Leaving map mode explicitly restores the current ship's camera, including after a stale camera reference. Movement follows interpolated ship positions, zoom smooths each frame, and map scrolling no longer changes the hidden flight camera's zoom.
 - The piloted ship now appears in Fleet Manager. Lead selected fleet joins that fleet as its player leader and orders its ships to follow you.
 - Player hyperspace jumps include only members of the player's named fleet in the current sector. Unassigned owned ships stay behind; an unassigned player jumps alone.
