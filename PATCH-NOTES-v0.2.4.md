@@ -30,6 +30,12 @@
 - Station mission boards now show the same faction-wide mission pool as faction AI chat. Issuing stations remain identified, and mission destinations and completion requirements are unchanged.
 - Removed obsolete Tiresias assets and moved earlier Loreai proposals out of the game asset folder while preserving approved designs.
 
+## Additional v0.2.4 fixes
+- Leaving map mode explicitly restores the current ship's camera, including after a stale camera reference. Movement follows interpolated ship positions, zoom smooths each frame, and map scrolling no longer changes the hidden flight camera's zoom.
+- The piloted ship now appears in Fleet Manager. Lead selected fleet joins that fleet as its player leader and orders its ships to follow you.
+- Player hyperspace jumps include only members of the player's named fleet in the current sector. Unassigned owned ships stay behind; an unassigned player jumps alone.
+- Reduced small missile boat acceleration by 25% in all movement directions, with maximum speed unchanged.
+
 ## Validation and known limits
 - Checked ship/station art, mount counts, shield behavior, equipment, refitting, saves, general gameplay, UI and faction mission visibility.
 - Local rendered benchmarks at 1600×900 on an RTX 5070: about 302 FPS fresh start, 284 FPS normal fleet flight, 180 FPS sector map and 173 FPS patrol-area dragging. These are local measurements, not hardware guarantees.
