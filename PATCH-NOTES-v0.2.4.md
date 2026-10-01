@@ -31,6 +31,8 @@
 - Removed obsolete Tiresias assets and moved earlier Loreai proposals out of the game asset folder while preserving approved designs.
 
 ## Additional v0.2.4 fixes
+- Fixed the docked Missions tab's collapsed scrolling area and refresh on tab selection. Verified the faction-wide mission list at every station belonging to each faction.
+- Shipyards now buy back products they manufacture, including sensor satellites. Blocked sales show their reason directly in the trade row.
 - Selling now uses ship cargo first, then personal storage at the docked station. The trade list shows both counts and keeps owned items visible even when the station does not buy them, with a reason on the disabled Sell button. Other stations' storage is excluded.
 - Trade buttons now read You Buy and You Sell; price columns read You Pay and You Receive.
 - Leaving map mode explicitly restores the current ship's camera, including after a stale camera reference. Movement follows interpolated ship positions, zoom smooths each frame, and map scrolling no longer changes the hidden flight camera's zoom.
