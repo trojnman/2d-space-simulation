@@ -4,9 +4,9 @@ A 2D space simulation playtest across ten sectors, with exploration, combat, min
 
 ## Download and play
 
-[Download the Windows installer — v0.2.3](https://github.com/trojnman/2d-space-simulation/releases/tag/v0.2.3-playtest-2026-09-28).
+[Download the Windows installer — v0.2.4](https://github.com/trojnman/2d-space-simulation/releases/tag/v0.2.4-playtest-2026-09-30).
 
-1. Download `Himinn-Setup-v0.2.3.exe` from the release assets.
+1. Download `Himinn-Setup-v0.2.4.exe` from the release assets.
 2. Run the installer. It installs the game and automatically sets up local AI conversations.
 3. Launch Himinn from the Start menu.
 
@@ -19,3 +19,7 @@ If the default renderer does not work, use the **Compatibility Mode** Start menu
 WASD: movement; Shift: afterburner; Space: brake; mouse: aim; left-click: fire; I: inventory; M: map; N: navigation; H: in-sector jump; E: dock/use nearby gate; Tab: target; X: clear target; L: scanner; Esc: menu.
 
 This is an unsigned development playtest. Extremely large rapid-fire battles can still have performance issues.
+
+## Latest patch
+
+[Full v0.2.4 patch notes](PATCH-NOTES-v0.2.4.md): detailed fleet and stations, integrated equipment, shared faction artwork, station shields, updated previews, thicker green UI lettering, and faction-wide station missions. Large fleet-cap battles still need optimization.
